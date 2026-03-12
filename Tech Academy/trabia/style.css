@@ -1,0 +1,13 @@
+body { font-family: 'Segoe UI', sans-serif; }
+.curso-card {
+    transition: all 0.3s;
+}
+.curso-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15) !important;
+}
+.curso-card img {
+    height: 220px;
+    object-fit: cover;
+}
+.badge { font-size: 0.85rem; }
